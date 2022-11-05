@@ -1,0 +1,37 @@
+.favorite-item {
+  padding: 2rem 4rem;
+  border: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  /* margin-bottom: 2rem; */
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+}
+
+.favorite-item .cart {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.favorite-item--image {
+  margin: 0 auto;
+  display: block;
+}
+
+.favorite-item .bin {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.favorite-item--title {
+  font-size: 2.4rem;
+}
+
+.favorite-item--description {
+  font-size: 1.6rem;
+}

@@ -1,0 +1,32 @@
+.card {
+  padding: 2rem 4rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  position: relative;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 3.2rem;
+}
+
+.card--image {
+  margin: 0 auto;
+  display: block;
+}
+
+.favorite {
+  position: absolute;
+  right: 6rem;
+  top: 1rem;
+  font-size: 2.8rem;
+  cursor: pointer;
+}
+.cart {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 2.8rem;
+  cursor: pointer;
+}

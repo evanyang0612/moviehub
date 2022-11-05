@@ -1,14 +1,24 @@
 import React from "react";
-import SearchMovies from "./components/SearchMovies";
-import Header from "./components/Header";
+import { Routes, Route } from "react-router-dom";
+import SearchMovies from "./components//SearchMovie/SearchMovies";
+import Header from "./components/Header/Header";
+import Favorite from "./pages/Favoirte/Favorite";
+import Cart from "./pages/Cart/Cart";
+import Footer from "./components/Footer/Footer";
 import "./style.css";
 
 export default function App() {
   return (
     <div className="container">
       <Header />
-      <h1 className="title">React Movie Search</h1>
-      <SearchMovies />
+      <Routes>
+        <Route path="/" element={<SearchMovies />} />
+
+        <Route path="/favorite" element={<Favorite />} />
+
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

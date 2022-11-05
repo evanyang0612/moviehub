@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0 10px;
+  -webkit-box-shadow: 0px 2px 10px -5px rgba(21, 6, 5, 1);
+  -moz-box-shadow: 0px 2px 10px -5px rgba(21, 6, 5, 1);
+  box-shadow: 0px 2px 10px -5px rgba(21, 6, 5, 1);
+  margin-bottom: 2.4rem;
+}
+
+.logo {
+  letter-spacing: 0.2rem;
+  margin-left: 2rem;
+  /* margin-right: auto; */
+  font-size: 3.2rem;
+}
+
+.header-right {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+header h3 {
+  font-size: 2rem;
+}
+
+.language-select {
+  font-size: 1.6rem;
+  font-family: "karla", sans-serif;
+  padding: 0.2rem 0.4rem;
+}
